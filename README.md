@@ -1,2 +1,4 @@
-The Learning is in progress and the updates are inside dev
-
+# Dev Branch
+```bash
+Learning is in progress
+```
