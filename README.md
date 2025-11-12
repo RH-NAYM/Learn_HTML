@@ -3,5 +3,6 @@
 Learning is in progress
 ```
 ```bash
-:: 1. 1st Lesson is Complete.
+:: 1st Lesson is Complete.
+:: 2nd Lesson is Complete.
 ```
