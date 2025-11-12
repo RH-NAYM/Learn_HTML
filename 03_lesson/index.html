@@ -1,51 +1,62 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- 1. Declares that this is an HTML5 document. Must be the very first line. -->
+
 <html lang="en">
+<!-- 2. Root element of the page. `lang="en"` tells browsers the page is in English (helps with accessibility & SEO). -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Dave Gray">
-    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
-    <title>My First Web Page</title>
-    <link rel="icon" href="html5.png" type="image/x-icon">
-    <link rel="stylesheet" href="main.css" type="text/css">
-</head>
+<head> <!-- 3. Starts the <head> section – contains metadata, links, title, etc. (not visible on the page). -->
+    <meta charset="UTF-8"> <!-- 4. Sets character encoding to UTF-8 (supports virtually all characters & emojis). -->
+    <meta name="author" content="MD Rakibul Hasan Naym">
+    <!-- 5. Metadata: author of the page. Search engines & tools can read it. -->
+    <meta name="description" content="My Learning details for HTML journey as lesson 03">
+    <!-- 6. Page description – shown in search results. -->
+    <title>Lesson 03</title> <!-- 7. The text that appears on the browser tab / window title. -->
+    <link rel="icon" href="./html5.png" type="image/x-icon">
+    <!-- 8. Favicon (tiny icon in the tab). Points to `html5.png`. -->
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <!-- 9. Links an external CSS file (`main.css`) to style the page. -->
+</head> <!-- 10. Closes the <head> section. -->
 
-<body>
-    <h1>Hello World!</h1>
+<body> <!-- 11. Starts the <body> – everything here is visible on the page. -->
+    <h1>My Lesson Number 03</h1> <!-- 12. Largest heading (Heading 1). Usually the main title of the page. -->
 
-    <hr>
+    <hr> <!-- 13. Horizontal rule – draws a thin line across the page (thematic break). -->
 
-    <h2>I'm Ready to Learn HTML</h2>
-    <p>This is my first web page.</p>
+    <h2>Learning HTML</h2> <!-- 14. Heading level 2 – a sub-section title. -->
+    <p>Lesson number is 03</p> <!-- 15. Paragraph (`<p>`) – block of text. -->
 
-    <h3>My Daily Schedule</h3>
-    <p>Let me tell you how:
+    <h3>My Daily Schedule</h3> <!-- 16. Heading level 3 – another sub-section. -->
+    <p>Let me tell you how: <!-- 17. Start of a paragraph that will contain line breaks and indentation. -->
         <br>&nbsp;&nbsp;&nbsp;...I learn more about web dev.
-        <br>&nbsp;&nbsp;&nbsp;...I plan out my schedule.
-        <br>&nbsp;&nbsp;&nbsp;...I use resources from <abbr title="Mozilla Developer Network">MDN</abbr>.
-    </p>
+        <!-- 18. `<br>` = line break. `&nbsp;` = non-breaking space (used here for indentation). -->
+        <br>&nbsp;&nbsp;&nbsp;...I plan out my schedule. <!-- 19. Another line break + indented text. -->
+        <br>&nbsp;&nbsp;&nbsp;...My Name is <abbr title="MD Rakibul Hasan Naym">RHN</abbr>.
+        <!-- 20. `<abbr>` creates an abbreviation; `title` attribute shows full form on hover. -->
+    </p> <!-- 21. Closes the paragraph. -->
 
-    <hr>
+    <hr> <!-- 22. Another horizontal divider to separate sections. -->
 
-    <h2>I Am Also Planning a Vacation</h2>
+    <h2>I Am Also Planning a Vacation</h2> <!-- 23. New section heading. -->
     <p>I've been working hard and <em>really need a getaway</em>.</p>
-    <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
+    <!-- 24. `<em>` = emphasis (usually rendered as *italic*). -->
+    <p>I live in <abbr title="Manikganj">MJ</abbr> so I want visit a playing ground.</p>
+    <!-- 25. Another abbreviation for "Kansas". -->
 
-    <h3>Place I'd Like to Visit</h3>
-    <p>I've heard good things about the Caribbean.</p>
-    <p>I've heard good things about going here:</p>
-    <address>
-        Margaritaville Island Reserve Riviera Cancún<br>
-        Bahia Petempich Puerto Morelos, Mexico<br>
-        Colonia Morelos, México 77580
-    </address>
+    <h3>Place I'd Like to Visit</h3> <!-- 26. Sub-heading for a list of places. -->
+    <p>I've heard good things about the Caribbean.</p> <!-- 27. Simple paragraph. -->
+    <p>I've heard good things about going here:</p> <!-- 28. Introduces an address block. -->
+    <address> <!-- 29. `<address>` semantic tag – meant for contact/location info (often italicized by browsers). -->
+        Margaritaville Island Reserve Riviera Cancún<br> <!-- 30. First line of the address + line break. -->
+        Bahia Petempich Puerto Morelos, Mexico<br> <!-- 31. Second line + line break. -->
+        Colonia Morelos, México 77580 <!-- 32. Third line (no <br> needed at the end). -->
+    </address> <!-- 33. Closes the address block. -->
 
-    <!-- TODO: Add more places -->
-    <h3>Place I Want to Avoid</h3>
-    <p>Anywhere cold. <strong>No way!</strong></p>
+    <!-- TODO: Add more places --> <!-- 34. HTML comment – visible only in source code. A reminder for future work. -->
+    <h3>Place I Want to Avoid</h3> <!-- 35. Another sub-heading. -->
+    <p>Anywhere cold. <strong>No way!</strong></p> <!-- 36. `<strong>` = strong importance (usually **bold**). -->
 
-    <hr>
+    <hr> <!-- 37. Final horizontal rule before the footer. -->
     &lt;&lt;&lt; &copy; Dave Gray &gt;&gt;&gt;
-</body>
+    <!-- 38. Escaped characters: `&lt;` = "<", `&gt;` = ">", `&copy;` = "©". Displays: <<< © Dave Gray >>> -->
+</body> <!-- 39. Closes the <body> section. -->
 
-</html>
+</html> <!-- 40. Closes the root <html> element – end of the document. -->
